@@ -4,14 +4,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(#121212, #1f0058);
+  background: linear-gradient(#0e0e0e, #0c2e44f1);
 }
 
 .title {
   font-size: 85px;
   color: #ffffff;
   animation: flipTitle 2s;
-  
+
 }
 @keyframes flipTitle {
   from {
@@ -22,6 +22,8 @@
   }
 }
 .container-input{
+  width: 30vw;
+  justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 34px 0;
@@ -36,7 +38,7 @@
     color: #fff;
     outline: none;
     margin-right: 8px;
-   font-weight: 700;
+   font-weight: 400;
 }
 .container-input input::placeholder{
     color: #f1f1f1;
@@ -54,6 +56,7 @@ transition: transform 0.5s;
 transform: scale(1.2);
 }
 .main{
+  
 display: flex;
 justify-content: center;
 align-items: center;
@@ -61,11 +64,15 @@ flex-direction: column;
 background-color: rgba(255, 255, 255, 0.2);
 width: 50vw;
 border-radius: 8px;
-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
 color: #f1f1f1;
 padding:30px 20px;
+border: 1px solid #00eeff;
 }
 .main span{
     margin:5px 0 ;
     font-size: 20px;
+}
+.main h2{
+  margin-bottom: 15px;
 }
